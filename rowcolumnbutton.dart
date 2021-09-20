@@ -20,6 +20,10 @@ class HomePage extends StatelessWidget {
               Icons.more_horiz,
               color: Colors.yellow,
               size: 50.0,
+            ),
+            Icon(
+              Icons.access_alarm,
+              color: Colors.red,
             )
           ]),
       body: SingleChildScrollView(
@@ -49,8 +53,10 @@ class HomePage extends StatelessWidget {
               margin: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
               color: Colors.amber,
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
+                    alignment: Alignment.center,
                     margin: EdgeInsets.symmetric(horizontal: 30, vertical: 50),
                     padding: EdgeInsets.symmetric(horizontal: 30, vertical: 20),
                     color: Colors.red,
